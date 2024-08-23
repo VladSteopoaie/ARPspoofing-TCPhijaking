@@ -48,7 +48,7 @@ def arp_poison(router_ip, router_mac, victim_ip, victim_mac):
 
 if __name__ == "__main__":
     if (len(sys.argv) != 3):
-        print(f"Usage: {sys.argv[0]} router_ip victim_ip")
+        logger.debug(f"Usage: {sys.argv[0]} router_ip victim_ip")
         sys.exit(0)
     
     router_ip = sys.argv[1]

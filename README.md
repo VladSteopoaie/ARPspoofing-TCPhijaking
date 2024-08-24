@@ -43,7 +43,7 @@ cd ARPspoofing-TCPhijaking
 
 Building the containers (docker might require admin permissions):
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 Now you can connect to each container with the following command:

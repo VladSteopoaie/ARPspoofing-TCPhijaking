@@ -198,7 +198,7 @@ You should see an output similar to this for each container:
 ~~~SNIP~~~
 ```
 
-So the `middle` intercepted the packets between the `server` and `client`. It hijaked the connection and appended a message ('-middle') for each packet it captured. 
+So the `middle` intercepted the packets between the `server` and `client`, it hijaked the connection and appended a message ('-middle') for each packet it captured. 
 
 Note: if the communication is not working and the `client` is hanging, try restarting the hijack.py script.
 
